@@ -30,3 +30,8 @@ const copyColor = (elem, hexVal) => {
     }).catch(() => alert("Failed to copy colour code!")); //showing alert if colour cannot be copied.
 }
 refreshBtn.addEventListener("click", generatePalette);
+
+//add box shadow on scroll
+window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('show-box-shadow', window.scrollY > 0)
+})

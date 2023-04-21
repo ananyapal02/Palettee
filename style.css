@@ -19,7 +19,11 @@ nav {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    border-bottom: 2px solid #7756fc;
+    /*border-bottom: 2px solid #7756fc;*/
+}
+nav.show-box-shadow {
+    box-shadow: 0 0.3rem 0.4rem #ae9aff;
+    border: none;
 }
 nav h1, nav h2 {
     margin: 0 50px;
@@ -30,10 +34,11 @@ nav h1, nav h2 {
     text-shadow: 1.5px 1.5px 2px #270b98;
 }
 nav h1 {
+    font-size: 2.3rem;
     border-radius: 50%;
     box-shadow: 1px 1px 2px #270b98;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     background: #ebf6fe;
     border: 3px solid #1f0979;
     color: #270b98;
@@ -93,6 +98,15 @@ nav h1 {
     box-shadow: 0 10px 20px rgba(52, 87, 220, 0.2);
     transform: translateX(-50%);
 }
+footer {
+    border-top: 2px solid #270b98;
+    padding-top: 20px;
+    margin: 50px 40px 20px ;
+}
+footer .copyright {
+    text-align: center;
+    align-items: center;
+}
 
 @media screen and (max-width: 510px) {
     nav {
@@ -106,19 +120,6 @@ nav h1 {
     nav h1 {
         display: none;
     }
-    /*
-    nav h1 {
-        border-radius: 50%;
-        box-shadow: 1px 1px 2px #270b98;
-        width: 50px;
-        height: 50px;
-        justify-content: space-between;
-        background: #ebf6fe;
-        border: 3px solid #1f0979;
-        color: #270b98;
-        text-align: center;
-        text-shadow: 1px 1px 2px #270b98;
-    }*/
     .container { 
         padding-top: 30%;
         margin: 10px;
@@ -134,5 +135,15 @@ nav h1 {
     .color .hex-value {
         font-size: 1.05rem;
     }
-    
+    footer {
+        border-top: 2px solid #270b98;
+        padding-top: 20px;
+        margin: 30px 25px 20px ;
+    }
+    footer .copyright {
+        margin: 0 10px;
+        font-size: 0.8rem;
+        text-align: center;
+        align-items: center;
+    }    
 }
