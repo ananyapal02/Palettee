@@ -120,6 +120,19 @@ footer .copyright {
     nav h1 {
         display: none;
     }
+    /*
+    nav h1 {
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px #270b98;
+        width: 50px;
+        height: 50px;
+        justify-content: space-between;
+        background: #ebf6fe;
+        border: 3px solid #1f0979;
+        color: #270b98;
+        text-align: center;
+        text-shadow: 1px 1px 2px #270b98;
+    }*/
     .container { 
         padding-top: 30%;
         margin: 10px;
