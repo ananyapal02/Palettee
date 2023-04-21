@@ -19,7 +19,7 @@ nav {
     justify-content: space-between;
     position: fixed;
     top: 0;
-    border-bottom: 1px solid #7756fc;
+    border-bottom: 2px solid #7756fc;
 }
 nav h1, nav h2 {
     margin: 0 50px;
@@ -95,10 +95,18 @@ nav h1 {
 }
 
 @media screen and (max-width: 510px) {
-    nav h1, nav h2 {
+    nav {
+        align-items: center;
+        justify-content: center;
+    }
+    nav h2 {
         margin: 0 30px;
         font-size: 1.9rem;
     }
+    nav h1 {
+        display: none;
+    }
+    /*
     nav h1 {
         border-radius: 50%;
         box-shadow: 1px 1px 2px #270b98;
@@ -110,7 +118,7 @@ nav h1 {
         color: #270b98;
         text-align: center;
         text-shadow: 1px 1px 2px #270b98;
-    }
+    }*/
     .container { 
         padding-top: 30%;
         margin: 10px;
